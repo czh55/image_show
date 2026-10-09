@@ -1,0 +1,92 @@
+{
+  "site": {
+    "title": "Image Show",
+    "tagline": "精选片刻，按编辑意图排布",
+    "author": "czh55"
+  },
+  "series": [
+    {
+      "id": "light",
+      "title": "光与影",
+      "desc": "自然光与室内光的对话"
+    },
+    {
+      "id": "place",
+      "title": "场所",
+      "desc": "走过的城市与角落"
+    },
+    {
+      "id": "quiet",
+      "title": "静物",
+      "desc": "日常物件的片刻凝视"
+    }
+  ],
+  "photos": [
+    {
+      "id": "light-01",
+      "series": "light",
+      "title": "窗边清晨",
+      "place": "示例 · 待替换",
+      "year": "2026",
+      "note": "侧光切过桌面，占位图——换上你的原片即可。",
+      "src": "images/light-01.svg",
+      "aspect": "3/2",
+      "featured": true
+    },
+    {
+      "id": "place-01",
+      "series": "place",
+      "title": "街角转折",
+      "place": "示例 · 待替换",
+      "year": "2026",
+      "note": "建筑立面与行人节奏。",
+      "src": "images/place-01.svg",
+      "aspect": "2/3",
+      "featured": true
+    },
+    {
+      "id": "quiet-01",
+      "series": "quiet",
+      "title": "一杯与一本书",
+      "place": "示例 · 待替换",
+      "year": "2026",
+      "note": "桌面静物，强调质感与留白。",
+      "src": "images/quiet-01.svg",
+      "aspect": "1/1",
+      "featured": true
+    },
+    {
+      "id": "light-02",
+      "series": "light",
+      "title": "黄昏长影",
+      "place": "示例 · 待替换",
+      "year": "2025",
+      "note": "低角度阳光拉长轮廓。",
+      "src": "images/light-02.svg",
+      "aspect": "16/9",
+      "featured": false
+    },
+    {
+      "id": "place-02",
+      "series": "place",
+      "title": "雨后路面",
+      "place": "示例 · 待替换",
+      "year": "2025",
+      "note": "反光与色块，城市的湿润时刻。",
+      "src": "images/place-02.svg",
+      "aspect": "3/2",
+      "featured": false
+    },
+    {
+      "id": "quiet-02",
+      "series": "quiet",
+      "title": "绿植一角",
+      "place": "示例 · 待替换",
+      "year": "2025",
+      "note": "局部特写，压低信息密度。",
+      "src": "images/quiet-02.svg",
+      "aspect": "4/5",
+      "featured": false
+    }
+  ]
+}

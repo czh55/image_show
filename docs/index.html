@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Show · 个人图片画廊</title>
+  <meta name="description" content="精选照片的个人编辑式画廊，托管于 GitHub Pages。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=Fraunces:opsz,wght@9..144,400;9..144,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#">Image Show</a>
+    <nav class="nav">
+      <a href="#featured">精选</a>
+      <a href="#series">系列</a>
+    </nav>
+  </header>
+
+  <section class="hero" aria-label="首页主视觉">
+    <h1 class="hero-brand">Image Show</h1>
+    <p class="hero-line">精选片刻，按编辑意图排布</p>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="#featured">浏览精选</a>
+      <a class="btn" href="#series">进入系列</a>
+    </div>
+  </section>
+
+  <section class="section" id="featured">
+    <div class="section-head">
+      <div class="section-kicker">Featured</div>
+      <h2 class="section-title">本期精选</h2>
+      <p class="section-desc">先看三张定调；完整作品按系列展开。</p>
+    </div>
+    <div class="featured-grid" id="featuredGrid"></div>
+  </section>
+
+  <section class="section" id="series">
+    <div class="section-head">
+      <div class="section-kicker">Collections</div>
+      <h2 class="section-title">系列</h2>
+      <p class="section-desc">按主题分组；把真实照片放进 docs/images，并在 photos.json 登记即可。</p>
+    </div>
+    <div id="seriesRoot"></div>
+  </section>
+
+  <footer class="site-footer">
+    <p>Image Show © <span id="footerYear"></span> · 个人图片画廊</p>
+    <p>
+      <a href="https://github.com/czh55/image_show">GitHub</a>
+      ·
+      <a href="https://czh55.github.io/image_show/">Pages</a>
+    </p>
+  </footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="图片预览">
+    <button class="lightbox-close" id="lightboxClose" type="button" aria-label="关闭">&times;</button>
+    <div class="lightbox-inner">
+      <img id="lightboxImg" src="" alt="">
+      <div class="lightbox-caption">
+        <strong id="lightboxTitle"></strong>
+        <span id="lightboxNote"></span>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/gallery.js"></script>
+</body>
+</html>

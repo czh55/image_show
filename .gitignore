@@ -1,0 +1,12 @@
+.DS_Store
+*.swp
+*.swo
+__pycache__/
+*.pyc
+.cursor/
+.env
+.venv/
+
+# 原始大图仅本地保留（网站用 docs/images 优化后版本）
+raw/**/*
+!raw/**/.gitkeep
